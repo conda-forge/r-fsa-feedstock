@@ -1,4 +1,4 @@
-{% set version = '0.9.1' %}
+{% set version = "0.9.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/FSA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/FSA/FSA_{{ version }}.tar.gz
-  sha256: 766196ccf3528d058822df7fbc10da731a3a6fe65cf90f1a3a1013cf99c94ca5
+  sha256: 109cb691f64977c1fc199dcb63b5affc9e12c3a912b85f1301dec4b441e5910e
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -51,8 +51,7 @@ test:
 about:
   home: https://github.com/droglenc/FSA
   license: GPL-2.0-or-later
-  summary: A variety of simple fish stock assessment methods. Detailed vignettes are available
-    on the fishR website <http://derekogle.com/fishR/>.
+  summary: A variety of simple fish stock assessment methods. Detailed vignettes are available on the fishR website <http://derekogle.com/fishR/>.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
