@@ -1,4 +1,4 @@
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/FSA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/FSA/FSA_{{ version }}.tar.gz
-  sha256: 109cb691f64977c1fc199dcb63b5affc9e12c3a912b85f1301dec4b441e5910e
+  sha256: 3c102c2bab42ae3ffbf1180eaca4d48814f11fd0af3f684ef2f68593430a5d81
 
 build:
   merge_build_host: true  # [win]
