@@ -1,11 +1,11 @@
-About r-fsa
-===========
+About r-fsa-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fsa-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/droglenc/FSA
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fsa-feedstock/blob/main/LICENSE.txt)
 
 Summary: A variety of simple fish stock assessment methods. Detailed vignettes are available on the fishR website <http://derekogle.com/fishR/>.
 
