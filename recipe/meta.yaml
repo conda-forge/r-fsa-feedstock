@@ -24,21 +24,21 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-flexparamcurve
     - r-car
-    - r-dplyr
     - r-dunn.test
     - r-lmtest
     - r-plotrix
-    - r-sciplot
+    - r-purrr
     - r-withr
   run:
     - r-base
+    - r-flexparamcurve
     - r-car
-    - r-dplyr
     - r-dunn.test
     - r-lmtest
     - r-plotrix
-    - r-sciplot
+    - r-purrr
     - r-withr
 
 test:
