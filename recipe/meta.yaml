@@ -1,4 +1,4 @@
-{% set version = "0.10.1" %}
+{% set version = "0.10.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/FSA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/FSA/FSA_{{ version }}.tar.gz
-  sha256: 0c427b44dbb193cd27820850e3cd4624f4f3f2c5d54f9fcaa885335e2e444573
+  sha256: 5d48b1097d0619f6f5696439d7679caa3b67484ac4a7a27702e179fd1833973f
 
 build:
   number: 0
